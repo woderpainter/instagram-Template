@@ -1,0 +1,6 @@
+{
+  "name": "FemSocial Studio",
+  "description": "Premium e-commerce boutique offering high-converting social media templates, content planners, and resources for female entrepreneurs, coaches, and content creators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
