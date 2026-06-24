@@ -6,6 +6,7 @@ import {
   AlertCircle, MessageSquare, Flame, Quote, 
   BookOpen, Compass, ChevronRight 
 } from 'lucide-react';
+import { motion } from 'motion/react';
 import { PageView, ProductPackage, WishlistItem } from './types';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -18,6 +19,7 @@ import CustomerReviews from './components/CustomerReviews';
 import { EmailCapturePopup, ExitIntentPopup } from './components/Popups';
 import CheckoutModal from './components/CheckoutModal';
 import DownloadPortal from './components/DownloadPortal';
+import InstagramFeed from './components/InstagramFeed';
 
 // Static packages data
 const pricingPackages: ProductPackage[] = [
@@ -241,7 +243,15 @@ export default function App() {
 
                 {/* Hero Asset Frame (5 cols) */}
                 <div className="lg:col-span-5 relative">
-                  <div className="p-3 bg-white border border-brand-beige-200 rounded-3xl shadow-xl rotate-1 hover:rotate-0 transition-all duration-500">
+                  <motion.div 
+                    animate={{ y: [0, -8, 0] }}
+                    transition={{ 
+                      duration: 5, 
+                      repeat: Infinity, 
+                      ease: "easeInOut" 
+                    }}
+                    className="p-3 bg-white border border-brand-beige-200 rounded-3xl shadow-xl rotate-1 hover:rotate-0 transition-all duration-500"
+                  >
                     <img
                       src="/src/assets/images/girl_filming_instagram_reel_1782258756354.jpg"
                       alt="Female entrepreneur filming an Instagram Reel"
@@ -257,7 +267,7 @@ export default function App() {
                       <p className="font-serif text-xs font-bold text-brand-charcoal">"Absolutely gorgeous templates!"</p>
                       <span className="text-[9px] text-brand-gold-700 font-mono font-medium block">AMARA V., BRAND STRATEGIST</span>
                     </div>
-                  </div>
+                  </motion.div>
                 </div>
 
               </div>
@@ -749,6 +759,9 @@ export default function App() {
 
               </div>
             </section>
+
+            {/* Instagram Live Feed Simulation */}
+            <InstagramFeed />
 
             {/* 10. FINAL CTA SECTION */}
             <section className="max-w-5xl mx-auto px-4 py-8">
