@@ -20,6 +20,11 @@ import { EmailCapturePopup, ExitIntentPopup } from './components/Popups';
 import CheckoutModal from './components/CheckoutModal';
 import DownloadPortal from './components/DownloadPortal';
 import InstagramFeed from './components/InstagramFeed';
+import StyleGuide from './components/StyleGuide';
+
+// Import image assets for Vite resolution
+import girlFilmingImg from './assets/images/girl_filming_instagram_reel_1782258756354.jpg';
+import instagramFeedMockup from './assets/images/instagram_feed_mockup_1782253817982.jpg';
 
 // Static packages data
 const pricingPackages: ProductPackage[] = [
@@ -253,7 +258,7 @@ export default function App() {
                     className="p-3 bg-white border border-brand-beige-200 rounded-3xl shadow-xl rotate-1 hover:rotate-0 transition-all duration-500"
                   >
                     <img
-                      src="/src/assets/images/girl_filming_instagram_reel_1782258756354.jpg"
+                      src={girlFilmingImg}
                       alt="Female entrepreneur filming an Instagram Reel"
                       className="rounded-2xl w-full h-auto object-cover"
                       referrerPolicy="no-referrer"
@@ -332,7 +337,7 @@ export default function App() {
                 <div className="lg:col-span-5 relative">
                   <div className="p-3 bg-white border border-brand-beige-200 rounded-3xl shadow-xl">
                     <img
-                      src="/src/assets/images/instagram_feed_mockup_1782253817982.jpg"
+                      src={instagramFeedMockup}
                       alt="Feminine Instagram Templates Mockup"
                       className="rounded-2xl w-full h-auto object-cover"
                       referrerPolicy="no-referrer"
@@ -488,61 +493,68 @@ export default function App() {
 
             {/* 5. BENEFITS SECTION */}
             <section className="bg-white py-16 md:py-24 border-y border-brand-beige-200">
-              <div className="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 space-y-12">
                 
-                {/* Benefits Copy Left */}
-                <div className="space-y-6 text-left">
-                  <span className="text-xs font-semibold tracking-widest text-brand-gold-700 uppercase">THE BUSINESS OUTCOMES</span>
-                  <h2 className="text-3xl md:text-4xl font-serif text-brand-charcoal leading-tight font-bold">
-                    What happens when you run a systematic social workflow?
-                  </h2>
-                  <p className="text-sm text-brand-charcoal-light leading-relaxed">
-                    When you stop treating social media as a last-minute chore and start using cohesive systems, your business undergoes an immediate, effortless upgrade.
-                  </p>
-                  
-                  <div className="space-y-4 pt-4">
-                    <div className="flex gap-4">
-                      <div className="w-10 h-10 rounded-full bg-brand-pink-100 text-brand-pink-300 flex items-center justify-center font-bold shrink-0">✓</div>
-                      <div>
-                        <h4 className="font-serif font-bold text-brand-charcoal text-base">Save 10+ Hours Every Week</h4>
-                        <p className="text-xs text-brand-charcoal-light mt-0.5">Instead of staring at a blank screen, pick a template, paste the prompt, and publish. Use your recovered time to serve clients.</p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                  {/* Benefits Copy Left */}
+                  <div className="space-y-6 text-left">
+                    <span className="text-xs font-semibold tracking-widest text-brand-gold-700 uppercase">THE BUSINESS OUTCOMES</span>
+                    <h2 className="text-3xl md:text-4xl font-serif text-brand-charcoal leading-tight font-bold">
+                      What happens when you run a systematic social workflow?
+                    </h2>
+                    <p className="text-sm text-brand-charcoal-light leading-relaxed">
+                      When you stop treating social media as a last-minute chore and start using cohesive systems, your business undergoes an immediate, effortless upgrade.
+                    </p>
+                    
+                    <div className="space-y-4 pt-4">
+                      <div className="flex gap-4">
+                        <div className="w-10 h-10 rounded-full bg-brand-pink-100 text-brand-pink-300 flex items-center justify-center font-bold shrink-0">✓</div>
+                        <div>
+                          <h4 className="font-serif font-bold text-brand-charcoal text-base">Save 10+ Hours Every Week</h4>
+                          <p className="text-xs text-brand-charcoal-light mt-0.5">Instead of staring at a blank screen, pick a template, paste the prompt, and publish. Use your recovered time to serve clients.</p>
+                        </div>
+                      </div>
+
+                      <div className="flex gap-4">
+                        <div className="w-10 h-10 rounded-full bg-brand-gold-100 text-brand-gold-700 flex items-center justify-center font-bold shrink-0">✓</div>
+                        <div>
+                          <h4 className="font-serif font-bold text-brand-charcoal text-base">Establish Premium Trust</h4>
+                          <p className="text-xs text-brand-charcoal-light mt-0.5">High-quality, balanced typography and editorial styling command premium rates. Make your brand match your level of expert advice.</p>
+                        </div>
+                      </div>
+
+                      <div className="flex gap-4">
+                        <div className="w-10 h-10 rounded-full bg-brand-beige-200 text-brand-charcoal-light flex items-center justify-center font-bold shrink-0">✓</div>
+                        <div>
+                          <h4 className="font-serif font-bold text-brand-charcoal text-base">Compound Organic Growth</h4>
+                          <p className="text-xs text-brand-charcoal-light mt-0.5">Consistently gorgeous, scroll-stopping visuals paired with our pre-tested hooks earn double the likes, shares, and bookmarks.</p>
+                        </div>
                       </div>
                     </div>
+                  </div>
 
-                    <div className="flex gap-4">
-                      <div className="w-10 h-10 rounded-full bg-brand-gold-100 text-brand-gold-700 flex items-center justify-center font-bold shrink-0">✓</div>
-                      <div>
-                        <h4 className="font-serif font-bold text-brand-charcoal text-base">Establish Premium Trust</h4>
-                        <p className="text-xs text-brand-charcoal-light mt-0.5">High-quality, balanced typography and editorial styling command premium rates. Make your brand match your level of expert advice.</p>
-                      </div>
-                    </div>
+                  {/* Benefits Quote & Mock Card Right */}
+                  <div className="p-8 rounded-3xl bg-brand-beige-100 border border-brand-beige-200 text-left relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-32 h-32 bg-brand-gold-100 rounded-full blur-3xl opacity-30 -z-10" />
+                    <Quote className="w-10 h-10 text-brand-gold-600/40" />
+                    
+                    <blockquote className="font-serif italic text-lg text-brand-charcoal mt-2 leading-relaxed">
+                      "I was on the verge of hiring an Instagram manager for $800/month because I was just so exhausted. Purchasing the Ultimate Bundle saved my sanity and my budget. I schedule everything on Monday mornings, and my grid looks better than ever."
+                    </blockquote>
 
-                    <div className="flex gap-4">
-                      <div className="w-10 h-10 rounded-full bg-brand-beige-200 text-brand-charcoal-light flex items-center justify-center font-bold shrink-0">✓</div>
+                    <div className="flex gap-3 items-center mt-6 border-t border-brand-beige-200 pt-4">
+                      <div className="w-10 h-10 rounded-full bg-brand-pink-100 text-brand-pink-300 flex items-center justify-center font-bold">K</div>
                       <div>
-                        <h4 className="font-serif font-bold text-brand-charcoal text-base">Compound Organic Growth</h4>
-                        <p className="text-xs text-brand-charcoal-light mt-0.5">Consistently gorgeous, scroll-stopping visuals paired with our pre-tested hooks earn double the likes, shares, and bookmarks.</p>
+                        <span className="block text-xs font-semibold text-brand-charcoal">Katrina Sterling</span>
+                        <span className="block text-[10px] text-brand-gold-700 font-mono font-medium">FINANCIAL ADVISOR & COACH</span>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                {/* Benefits Quote & Mock Card Right */}
-                <div className="p-8 rounded-3xl bg-brand-beige-100 border border-brand-beige-200 text-left relative overflow-hidden">
-                  <div className="absolute top-0 right-0 w-32 h-32 bg-brand-gold-100 rounded-full blur-3xl opacity-30 -z-10" />
-                  <Quote className="w-10 h-10 text-brand-gold-600/40" />
-                  
-                  <blockquote className="font-serif italic text-lg text-brand-charcoal mt-2 leading-relaxed">
-                    "I was on the verge of hiring an Instagram manager for $800/month because I was just so exhausted. Purchasing the Ultimate Bundle saved my sanity and my budget. I schedule everything on Monday mornings, and my grid looks better than ever."
-                  </blockquote>
-
-                  <div className="flex gap-3 items-center mt-6 border-t border-brand-beige-200 pt-4">
-                    <div className="w-10 h-10 rounded-full bg-brand-pink-100 text-brand-pink-300 flex items-center justify-center font-bold">K</div>
-                    <div>
-                      <span className="block text-xs font-semibold text-brand-charcoal">Katrina Sterling</span>
-                      <span className="block text-[10px] text-brand-gold-700 font-mono">FINANCIAL ADVISOR & COACH</span>
-                    </div>
-                  </div>
+                {/* Interactive Style Guide Block */}
+                <div className="pt-4 max-w-4xl mx-auto w-full">
+                  <StyleGuide />
                 </div>
 
               </div>
