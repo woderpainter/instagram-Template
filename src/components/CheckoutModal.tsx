@@ -282,7 +282,7 @@ export default function CheckoutModal({ isOpen, onClose, product, onCheckoutSucc
                   <span>Secure Complete Payment • ${finalPrice.toFixed(2)}</span>
                 </button>
                 <p className="text-[10px] text-brand-beige-300 text-center">
-                  By clicking, you authorize FemSocial Studio to deliver these digital assets immediately to your inbox. All transactions are sandbox-simulated.
+                  By clicking, you authorize InstagramSolution to deliver these digital assets immediately to your inbox. All transactions are sandbox-simulated.
                 </p>
               </div>
             </form>

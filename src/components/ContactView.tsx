@@ -37,7 +37,7 @@ export default function ContactView() {
               </div>
               <div>
                 <span className="block text-[10px] font-mono text-brand-gold-700 uppercase">EMAIL SUPPORT</span>
-                <span className="text-sm font-semibold text-brand-charcoal">hello@femsocialstudio.com</span>
+                <span className="text-sm font-semibold text-brand-charcoal">hello@instagramsolution.com</span>
               </div>
             </div>
 
@@ -131,7 +131,7 @@ export default function ContactView() {
                     <label className="block text-xs font-semibold tracking-wider text-brand-charcoal-light uppercase">Instagram Handle</label>
                     <input
                       type="text"
-                      placeholder="e.g. @femsocial"
+                      placeholder="e.g. @instagramsolution"
                       value={instagram}
                       onChange={(e) => setInstagram(e.target.value)}
                       className="w-full px-4 py-2.5 bg-brand-beige-50 border border-brand-beige-300 rounded-xl text-xs text-brand-charcoal focus:bg-white focus:border-brand-gold-600 outline-none transition-all"

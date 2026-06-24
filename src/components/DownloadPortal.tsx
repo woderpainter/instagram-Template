@@ -284,7 +284,7 @@ export default function DownloadPortal({ customerName, packageName, onNavigateHo
             <div>
               <h4 className="font-serif font-semibold text-brand-charcoal">Need Creative Support?</h4>
               <p className="text-xs text-brand-charcoal-light mt-1">
-                We're here to help you shine! Email us anytime at hello@femsocialstudio.com. Average response time is under 12 hours.
+                We're here to help you shine! Email us anytime at hello@instagramsolution.com. Average response time is under 12 hours.
               </p>
             </div>
           </div>

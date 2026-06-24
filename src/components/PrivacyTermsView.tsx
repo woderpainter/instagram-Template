@@ -15,7 +15,7 @@ export default function PrivacyTermsView({ type }: PrivacyTermsViewProps) {
           {isPrivacy ? 'Privacy Policy' : 'Terms & Conditions'}
         </h1>
         <p className="text-xs text-brand-charcoal-light max-w-md mx-auto">
-          Please read this document carefully to understand how FemSocial Studio manages digital asset agreements and visitor data privacy.
+          Please read this document carefully to understand how InstagramSolution manages digital asset agreements and visitor data privacy.
         </p>
       </div>
 
@@ -60,7 +60,7 @@ export default function PrivacyTermsView({ type }: PrivacyTermsViewProps) {
             <section className="space-y-2">
               <h3 className="font-serif text-lg font-bold text-brand-charcoal">1. Intellectual Property & Digital License</h3>
               <p>
-                Upon purchasing any template package (Basic, Premium, or Ultimate) from FemSocial Studio, you are granted a **single-user, non-exclusive, non-transferable personal and commercial license** to customize and publish the graphics on your personal or company social media feeds.
+                Upon purchasing any template package (Basic, Premium, or Ultimate) from InstagramSolution, you are granted a **single-user, non-exclusive, non-transferable personal and commercial license** to customize and publish the graphics on your personal or company social media feeds.
               </p>
               <p className="font-semibold text-brand-charcoal">
                 You are strictly prohibited from:
@@ -81,14 +81,14 @@ export default function PrivacyTermsView({ type }: PrivacyTermsViewProps) {
             <section className="space-y-2">
               <h3 className="font-serif text-lg font-bold text-brand-charcoal">3. Canva Compatibility</h3>
               <p>
-                Our files are explicitly built to integrate with Canva.com. You do not need a Canva Pro license to customize the files; however, you must create a free personal Canva account to load and modify the templates. FemSocial Studio is an independent creative brand and is not officially affiliated with Canva, Inc.
+                Our files are explicitly built to integrate with Canva.com. You do not need a Canva Pro license to customize the files; however, you must create a free personal Canva account to load and modify the templates. InstagramSolution is an independent creative brand and is not officially affiliated with Canva, Inc.
               </p>
             </section>
 
             <section className="space-y-2">
               <h3 className="font-serif text-lg font-bold text-brand-charcoal">4. Limitation of Liability</h3>
               <p>
-                While we design high-converting visual products, social media algorithms fluctuate constantly. FemSocial Studio makes no guarantees regarding specific follower growth numbers, client booking counts, or revenue metrics.
+                While we design high-converting visual products, social media algorithms fluctuate constantly. InstagramSolution makes no guarantees regarding specific follower growth numbers, client booking counts, or revenue metrics.
               </p>
             </section>
           </>

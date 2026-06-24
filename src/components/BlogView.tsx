@@ -134,7 +134,7 @@ export default function BlogView() {
         <div className="space-y-12">
           <div className="text-center space-y-4 max-w-xl mx-auto">
             <span className="text-xs font-semibold tracking-widest text-brand-gold-700 uppercase">EXPERTISE & STRATEGY</span>
-            <h1 className="text-4xl md:text-5xl font-serif text-brand-charcoal leading-tight">The FemSocial Journal</h1>
+            <h1 className="text-4xl md:text-5xl font-serif text-brand-charcoal leading-tight">The InstagramSolution Journal</h1>
             <p className="text-sm text-brand-charcoal-light">
               High-value Instagram growth insights, marketing tutorials, and aesthetic brand secrets compiled by our creative agency experts.
             </p>

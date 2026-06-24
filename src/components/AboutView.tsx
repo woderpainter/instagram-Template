@@ -11,7 +11,7 @@ export default function AboutView() {
             Designed to help women show up beautifully, daily.
           </h1>
           <p className="text-sm text-brand-charcoal-light leading-relaxed">
-            FemSocial Studio was founded under a simple realization: **Modern female founders are spending more time struggling with graphic design than actually working inside their genius zone.**
+            InstagramSolution was founded under a simple realization: **Modern female founders are spending more time struggling with graphic design than actually working inside their genius zone.**
           </p>
           <p className="text-sm text-brand-charcoal-light leading-relaxed">
             Whether you are a coach, a boutique shop owner, or a rising content creator, your aesthetic is your virtual storefront. We blend conversion copywriting with premium editorial layouts to give you back your hours and help you build a brand that commands premium prices.
@@ -37,7 +37,7 @@ export default function AboutView() {
       {/* Brand Core Values (Bento style grid) */}
       <div className="space-y-8">
         <div className="text-center max-w-md mx-auto space-y-2">
-          <h2 className="text-3xl font-serif text-brand-charcoal">The FemSocial Values</h2>
+          <h2 className="text-3xl font-serif text-brand-charcoal">The InstagramSolution Values</h2>
           <p className="text-xs text-brand-charcoal-light">The foundational pillars behind every template, caption, and system we design.</p>
         </div>
 

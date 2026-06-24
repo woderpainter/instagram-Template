@@ -34,7 +34,7 @@ export default function Footer({ onNavigate }: FooterProps) {
             className="flex flex-col text-left group"
           >
             <span className="font-serif text-2xl font-bold tracking-tight text-brand-charcoal group-hover:text-brand-gold-600 transition-colors">
-              FemSocial <span className="font-serif italic font-normal text-brand-gold-500">Studio</span>
+              Instagram<span className="font-serif italic font-normal text-brand-gold-500">Solution</span>
             </span>
             <span className="text-[10px] font-mono tracking-widest text-brand-beige-300 uppercase -mt-1">
               AESTHETIC DIGITAL SYSTEMS
@@ -154,7 +154,7 @@ export default function Footer({ onNavigate }: FooterProps) {
 
       {/* Footer Bottom (Copyright) */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-12 mt-12 border-t border-brand-beige-100 flex flex-col sm:flex-row items-center justify-between gap-4 text-[10px] text-brand-beige-300">
-        <p>© 2026 FemSocial Studio. All rights reserved.</p>
+        <p>© 2026 InstagramSolution. All rights reserved.</p>
         <p className="flex items-center gap-1">
           Designed with <Heart className="w-3 h-3 text-brand-pink-300 fill-brand-pink-300" /> for visionary women entrepreneurs.
         </p>

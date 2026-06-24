@@ -54,7 +54,7 @@ export default function Header({ currentView, onNavigate, wishlist, onRemoveFrom
           className="flex flex-col text-left group"
         >
           <span className="font-serif text-xl sm:text-2xl font-bold tracking-tight text-brand-charcoal group-hover:text-brand-gold-600 transition-colors">
-            FemSocial <span className="font-serif italic font-normal text-brand-gold-500">Studio</span>
+            Instagram<span className="font-serif italic font-normal text-brand-gold-500">Solution</span>
           </span>
           <span className="text-[9px] font-mono tracking-widest text-brand-beige-300 uppercase -mt-1 group-hover:text-brand-charcoal transition-colors">
             AESTHETIC DIGITAL SYSTEMS
